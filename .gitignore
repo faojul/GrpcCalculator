@@ -1,0 +1,49 @@
+# .NET specific ignores
+## Ignore artifacts
+[Bb]in/
+[Oo]bj/
+
+## Ignore Visual Studio & Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.bak
+*.log
+*.ncb
+*.opendb
+*.pdb
+*.resharper
+*.scc
+*.vssscc
+*.vsscc
+*.vsp
+*.vspscc
+*.vssscc
+
+## Ignore NuGet
+packages/
+*.nupkg
+*.orig
+*.lock.json
+project.lock.json
+
+# Go specific ignores
+## Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+
+## Test cache
+*.test
+testdata/
+
+## Go module cache
+pkg/
+
+# Common ignores
+.DS_Store
+Thumbs.db
